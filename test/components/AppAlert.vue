@@ -3,7 +3,7 @@
       Loading...
     </div>
     <div v-else>
-      <div v-for="post in posts">
+      <div v-for="pojst in posts">
         <h2>{{ post.id }}{{ post.location }}</h2>
       </div>
 
